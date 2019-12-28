@@ -1,14 +1,14 @@
 {
     "Use_Frequency": true,
     "Orthography_Embedding_Size": null,
-    "Phoneme_Feature_File_Path": "phonetic_feature_definitions_18_features.csv",
+    "Phoneme_Feature_File_Path": "phonetic_feature_definitions_21features_uniquevectors.csv",
 
     "RNN": {
-        "Size": 300,
+        "Size": 400,
         "Use_Feedback": true,
         "Use_Recurrent": true
-        },
-
+    },
+    
     "Train": {
         "Pattern_File_Path": "ELP_groupData.csv",
         "Max_Pattern_Queue": 20,
